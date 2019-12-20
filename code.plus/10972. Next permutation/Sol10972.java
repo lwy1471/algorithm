@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 class Sol10972 {
@@ -10,18 +9,6 @@ class Sol10972 {
         for(int i=0;i<size;i++) {
             array[i]=sc.nextInt();
         }
-
-        // Arrays.sort(array);
-        // do {
-        //     for(int i=0;i<size;i++) {
-        //         if(i+1==size)
-        //             System.out.println(array[i]);
-        //         else
-        //             System.out.print(array[i]+" ");
-        //     }
-        // }while(nextPermutation(array)!=-1);
-
-        // System.out.println();
 
         int res =  nextPermutation(array);
         if(res==-1)
